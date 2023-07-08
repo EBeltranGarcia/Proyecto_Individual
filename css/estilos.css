@@ -1,6 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital@1&display=swap');
 * {
     background-color: rgb(203, 253, 255);
+    font-family: 'Nunito', sans-serif;
 }
-h1 {
-    color: red;
+h2 {
+    margin-bottom: 0%;
+}
+h3 {
+    font-size: 100%;
+    margin-top: 5%;
+}
+#presentacion {
+    color: black;
+    font-size: 18px;
+    position: absolute;
+    top: 33%;
+    left: 20%;
+}
+#sub_paginas {
+    font-size: medium;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+}
+#imagen_inicio {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 12%;
+    left: 55%;
 }
