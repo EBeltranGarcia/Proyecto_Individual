@@ -24,9 +24,11 @@ h3 {
     left: 20%;
 }
 #imagen_inicio {
-    width: 500px;
-    height: 500px;
+    width: 48%;
+    height: 90%;
+    border-radius: 200px;
     position: absolute;
-    top: 12%;
-    left: 55%;
+    top: 5vh;
+    left: 45vw;
 }
+
