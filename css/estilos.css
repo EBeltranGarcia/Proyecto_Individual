@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital@1&display=swap');
 * {
-    background-color: rgb(203, 253, 255);
+    background-color: #cbfdff;
     font-family: 'Nunito', sans-serif;
 }
 h2 {
@@ -9,6 +9,13 @@ h2 {
 h3 {
     font-size: 100%;
     margin-top: 5%;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    background-color: #84dfe2;
 }
 #presentacion {
     color: black;
@@ -23,12 +30,21 @@ h3 {
     top: 50%;
     left: 20%;
 }
+.animacion {
+    transition: 100ms;
+}
+.animacion:hover {
+    transform: translate(0px,-3px);
+}
 #imagen_inicio {
-    width: 48%;
-    height: 90%;
+    width: 610px;
+    height: 600px;
     border-radius: 200px;
     position: absolute;
-    top: 5vh;
-    left: 45vw;
+    top: 5%;
+    left: 45%;
 }
+
+
+media
 
