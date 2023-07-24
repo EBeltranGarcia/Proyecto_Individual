@@ -3,6 +3,24 @@
     background-color: rgb(203, 253, 255);
     font-family: 'Nunito', sans-serif;
 }
+a {
+    text-decoration: none;
+    color: black;
+    background-color: whitesmoke;
+    padding-top: 0px;
+}
+a:hover {
+    background-color: gainsboro;
+}
+#barra-navegacion {
+    background-color: whitesmoke;
+    position: sticky;
+    display: flex;
+    justify-content:flex-end;
+    gap: 15px;
+    padding: 10px;
+    align-items: end;
+}
 #caja-formulario {
     background: rgb(0,0,0);
     background: radial-gradient(circle, rgba(0,0,0,1) 9%, rgba(168,176,8,1) 17%, rgba(194,54,6,1) 100%);
