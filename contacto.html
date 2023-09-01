@@ -6,6 +6,7 @@
     <title>Contacto</title>
     <link rel="stylesheet" href="./css/contacto.css">
     <link rel="icon" href="./assets/img/code.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body>
     <nav id="barra-navegacion">
@@ -18,24 +19,48 @@
             <a href="./contacto.html">Contacto</a>
             </div>
     </nav>
-    <div id="caja-formulario">
-        <p>Rellena el siguiente formulario</p>
-        <form action="" id="margen-form">
-            <label for="datos-nombre">Nombre</label>
-            <input type="text" id="datos-nombre" class="hola">
-            <br>
-            <label for="datos-apellido">Apellido</label>
-            <input type="text" id="datos-apellido" class="hola">
-            <br>
-            <label for="datos-talle">Talle</label>
-            <select name="datos-talle" class="hola">
-                <option value="L">Large</option>
-                <option value="M">Medium</option>
-                <option value="S">Small</option>
-            </select>
-            <br>
-            <button class="hola">Enviar</button>
-        </form>
-    </div>
+    <main>
+        <h2>
+            Formulario de contacto
+        </h2>
+        <div id="caja-formulario">
+            <form action="https://formspree.io/f/mzblgbve" method="post">
+                <div>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" class="edicion-input">
+                </div>
+                <div>
+                    <label for="email">Correo Electronico:</label>
+                    <input type="email" name="emailEmpresa" id="email" class="edicion-input" placeholder="example@gmail.com" required>
+                </div>
+                <div>
+                    <label for="texto-informacion">Mensaje:</label>
+                    <br>
+                    <textarea name="texto-informacion" id="edicion-textArea" id="texto-informacion" cols="43" rows="7"></textarea>
+                </div>
+                <input id="boton-enviar" type="submit" value="Enviar">
+            </form>
+        </div>
+        <section>
+                <div>
+                    <a href="https://github.com/EBeltranGarcia" target="_blank">
+                        <img class="animate__animated animate__fadeInRight animate__delay-1s" id="edicion-github" src="./assets/img/github_6424084.png" alt="Imagen Github">
+                    </a>
+                </div>
+                <div>
+                    <a href="#" target="_blank">
+                        <img class="animate__animated animate__fadeInLeft animate__delay-1s" id="edicion-linkedin" src="./assets/img/linkedin_6422202.png" alt="Imagen Linkedin">
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.instagram.com/estebanbeltran29/" target="_blank">
+                        <img class="animate__animated animate__fadeInRight animate__delay-1s" id="edicion-instagram" src="./assets/img/instagram_6422200.png" alt="Imagen Instagram">
+                    </a>
+                </div>
+        </section>
+    </main>
+    <footer>
+        Iconos tomados de <a href="https://www.freepik.es">freepik.es</a>
+    </footer>
 </body>
 </html>

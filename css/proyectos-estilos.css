@@ -31,3 +31,29 @@ nav {
 .botones-final a:hover {
     opacity: 0.7;
 }
+.posicion-imagenes {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+.tamaño-imagenes {
+    width: 300px;
+    height: 350px;
+    border: 2px solid rgb(7, 122, 97, 0.3);
+}
+.titulos-proyectos {
+    padding-bottom: 7px;
+    display: flex;
+    justify-content: center;
+}
+.texto-imagenes {
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+.texto-link {
+    text-decoration: underline;
+    color: rgb(168, 14, 168);
+    display: flex;
+    justify-content: center;
+}

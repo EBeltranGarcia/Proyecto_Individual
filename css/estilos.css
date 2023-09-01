@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital@1&display=swap');
-* {
+*{
     background-color: #cbfdff;
     font-family: 'Nunito', sans-serif;
 }
+body
 h2 {
     margin-bottom: 0%;
 }
@@ -15,20 +16,20 @@ a {
     color: black;
 }
 a:hover {
-    background-color: #84dfe2;
+    background-color: rgba(98, 214, 189, 0.63);
 }
 #presentacion {
     color: black;
     font-size: 18px;
     position: absolute;
-    top: 33%;
-    left: 20%;
+    top: 225px;
+    left: 265px;
 }
 #sub_paginas {
     font-size: medium;
     position: absolute;
-    top: 50%;
-    left: 20%;
+    top: 325px;
+    left: 265px;
 }
 .animacion {
     transition: 100ms;
@@ -41,14 +42,10 @@ a:hover {
     height: 600px;
     border-radius: 200px;
     position: absolute;
-    top: 5%;
-    left: 45%;
+    top: 30px;
+    left: 620px;
 }
 
 
-@media (max-width: 800px) {
-    * {
-        background-color: blue;
-    }
-}
+
 
